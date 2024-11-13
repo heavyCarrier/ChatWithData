@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+ 
+.App {
+  text-align: center;
+}
+ 
+h1 {
+  color: #00395d;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+ 
+h1 span {
+  color: #00aeef; /* Purple color for emphasis */
+}
+ 
+.search-bar {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 8px;
+  height: 50px;
+  /* box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3); */
+}
+ 
+.search-bar input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+  flex: 1;
+  margin-left: 10px;
+}
+ 
+.search-bar button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ 
+.search-bar button:hover {
+  background-color: #6a70f4;
+}
+ 
+.output {
+  margin-top: 30px;
+  width: 600px;
+  color: black;
+  height: 80px;
+  display: grid;
+  grid-row: 2;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+ 
+.logo{
+  width: 150px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+ 
+.query {
+  color: #00aeef;
+  height:20px;
+  width: 600px;
+  -webkit-text-stroke: 0.5px #00aeef ;
+  text-align: center;
+}
+ 
+.container {
+  padding: 150px 50px 50px 50px;
+  height: 800px;
+  /* border: rgb(231, 231, 231) 1px solid; */
+  border-radius: 20px;
+}
+ 
+.table_name {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 8px;
+  height: 50px;
+}
+ 
+.table_name input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+  flex: 1;
+  margin-left: 10px;
+}
+ 
+.Schema_string {
+  width: 280px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 8px;
+  height: 50px;
+}
+ 
+.Schema_string input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+  flex: 1;
+  margin-left: 10px;
+}
+ 
+ 
+.container1 {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
