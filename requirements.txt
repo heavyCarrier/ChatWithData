@@ -1,0 +1,7 @@
+transformers
+torch
+openai
+mysql-connector-python
+flask
+flask-Cors
+urllib3
